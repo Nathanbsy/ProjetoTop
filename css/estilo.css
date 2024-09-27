@@ -1,3 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+   width: 100%;
+   background: var(--bg-color4);
+}
+
 :root {
     --text-color: #000;
     --text-color2: #fff;
