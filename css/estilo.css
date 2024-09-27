@@ -146,3 +146,36 @@ section {
       transform: scale(0.85, 0.85);
     }
 }
+
+/* Responsividade mobile */
+@media (width <= 500px){
+
+  body{
+    width: 100%;
+
+  }
+
+
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header nav ul{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right img{
+    width: 100%
+  }
+
+}
